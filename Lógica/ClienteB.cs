@@ -11,6 +11,8 @@ namespace Lógica
         //10- Cree dos clases cliente (nombre, cuit, saldo). Sobrecargue el operador de resta para que:
         //b. si son distintos: retorne un cliente con saldo = saldo menor de los dos clientes.
 
+        //ESTABA MAL EL ENUNCIADO, ERA 1 SOLA CLASE, DOS INSTANCIAS DE LA MISMA. CON ESTA CLASE O LA OTRA SOLAS ES SUFICIENTE.
+
         public string Nombre { get; set; }
         public int CUIT { get; set; }
         public int Saldo { get; set; }

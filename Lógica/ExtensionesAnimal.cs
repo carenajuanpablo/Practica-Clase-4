@@ -7,6 +7,8 @@ using System.Text.RegularExpressions;
 
 namespace Lógica
 {
+    //NO ES NECESARIA LA CLASE ANIMAL, LOS METODOS DE EXTENSION SE HACEN DIRECTAMENTE SOBRE EL TIPO DE DATOS REQUERIDO (STRING, NRO, O UNA INSTANCIA)
+
     //1- Crear un método de extensión que reciba un string y retorne la cantidad de palabras.
 
     public static class ExtensionesAnimal

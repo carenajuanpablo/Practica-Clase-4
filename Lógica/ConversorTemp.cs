@@ -10,11 +10,12 @@ namespace Lógica
     {
         //11- Crear una clase estática que contenga dos métodos que convierten la temperatura de grados Celsius a grados Fahrenheit y viceversa 
         //(f = c * 2.12; c = f / 2.12).
+        private static double factorConversion = 2.12;
 
         public static double CelsiusAFahrenheit(string temperaturaCelsius)
         {
             double celsius = Double.Parse(temperaturaCelsius);
-            double fahrenheit = (celsius * 2.12);
+            double fahrenheit = (celsius * 2.12);//Usar la variable privada estatica para no repetir codigo.
             return fahrenheit;
         }
 
